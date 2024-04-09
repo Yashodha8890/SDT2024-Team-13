@@ -14,7 +14,7 @@ public class DriveForward
         System.out.println("Drive Forward\nand Stop\n");
         System.out.println("Press any key to start");
 
-        Button.LEDPattern(4);     // flash green led and
+        Button.LEDPattern(4);     // flash green led and gimhani
         Sound.beepSequenceUp();   // make sound when ready.
 
         Button.waitForAnyPress();
