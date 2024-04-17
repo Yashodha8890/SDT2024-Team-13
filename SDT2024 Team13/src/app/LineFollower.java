@@ -118,7 +118,8 @@ public class LineFollower implements Runnable {
                 // Stop the motors
                 Motor.C.stop(true);
                 Motor.B.stop(true);
-            
+
+                //getting back to the line
             } else {
                 // Stop the motors
                 Motor.C.stop(true);
